@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+tianjy_tree_table_multiselect/docs/current
+node_modules/

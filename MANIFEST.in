@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tianjy_tree_table_multiselect *.css
+recursive-include tianjy_tree_table_multiselect *.csv
+recursive-include tianjy_tree_table_multiselect *.html
+recursive-include tianjy_tree_table_multiselect *.ico
+recursive-include tianjy_tree_table_multiselect *.js
+recursive-include tianjy_tree_table_multiselect *.json
+recursive-include tianjy_tree_table_multiselect *.md
+recursive-include tianjy_tree_table_multiselect *.png
+recursive-include tianjy_tree_table_multiselect *.py
+recursive-include tianjy_tree_table_multiselect *.svg
+recursive-include tianjy_tree_table_multiselect *.txt
+recursive-exclude tianjy_tree_table_multiselect *.pyc
