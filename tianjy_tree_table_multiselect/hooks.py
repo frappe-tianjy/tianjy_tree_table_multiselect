@@ -7,6 +7,16 @@ app_description = "tianjy_tree_table_multiselect"
 app_email = "511055984@qq.com"
 app_license = "MIT"
 
+after_migrate = 'tianjy_tree_table_multiselect.migrate.run'
+
+app_include_js = [
+	"tianjy_tree_table_multiselect.bundle.js",
+	"/assets/tianjy_tree_table_multiselect/lib/jstree.min.js",
+]
+
+app_include_css = [
+    "/assets/tianjy_tree_table_multiselect/lib/themes/default/style.min.css",
+]
 # Includes in <head>
 # ------------------
 
