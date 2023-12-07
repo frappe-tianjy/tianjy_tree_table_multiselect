@@ -145,4 +145,4 @@
   frappe.model.no_value_type.push("Tianjy Tree Table MultiSelect");
   frappe.model.table_fields.push("Tianjy Tree Table MultiSelect");
 })();
-//# sourceMappingURL=tianjy_tree_table_multiselect.bundle.QKFWR3XU.js.map
+//# sourceMappingURL=tianjy_tree_table_multiselect.bundle.7Y4LA2O5.js.map
