@@ -43,6 +43,8 @@ export default function create(Class) {
 					const deleteRows = this.rows.filter(item=>!selected.some(each=>each.id===item[link_field.fieldname]));
 					const createRows = selected.filter(item=>!this.rows.some(each=>each[link_field.fieldname]===item.id));
 					this.frm.doc[this.df.fieldname] = this.frm.doc[this.df.fieldname].filter(row =>!deleteRows.some(item=>item[link_field.fieldname]===row[link_field.fieldname]));
+					this.frm.set_value(this.df.fieldname, this.frm.doc[this.df.fieldname]);
+					this.frm.refresh_field(this.df.fieldname);
 					const value = this.get_multi_data(createRows);
 					this.parse_validate_and_set_in_model(value);
 					dialog.hide();
