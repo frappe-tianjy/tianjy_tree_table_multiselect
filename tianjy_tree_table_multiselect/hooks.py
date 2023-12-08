@@ -16,6 +16,7 @@ app_include_js = [
 
 app_include_css = [
     "/assets/tianjy_tree_table_multiselect/lib/themes/default/style.min.css",
+	"/assets/tianjy_tree_table_multiselect/css/tree_table_multiselect.css"
 ]
 # Includes in <head>
 # ------------------

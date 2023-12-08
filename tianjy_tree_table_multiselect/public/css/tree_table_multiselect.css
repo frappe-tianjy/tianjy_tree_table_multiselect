@@ -1,0 +1,9 @@
+.tree-table-multiselect .tb-selected-value{
+	max-width: 100%;
+}
+.tree-table-multiselect .btn-link-to-form{
+	overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
