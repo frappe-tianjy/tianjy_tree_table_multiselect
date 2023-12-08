@@ -22,6 +22,7 @@ export default function create(Class) {
 			const me = this;
 			const dialog = new frappe.ui.Dialog({
 				title: __(this.df.label),
+				size:'extra-large',
 				fields: [
 					{
 						label: 'Filter',

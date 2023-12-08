@@ -35,6 +35,7 @@
         const me = this;
         const dialog = new frappe.ui.Dialog({
           title: __(this.df.label),
+          size: "extra-large",
           fields: [
             {
               label: "Filter",
@@ -145,4 +146,4 @@
   frappe.model.no_value_type.push("Tianjy Tree Table MultiSelect");
   frappe.model.table_fields.push("Tianjy Tree Table MultiSelect");
 })();
-//# sourceMappingURL=tianjy_tree_table_multiselect.bundle.7Y4LA2O5.js.map
+//# sourceMappingURL=tianjy_tree_table_multiselect.bundle.QCHEYZE2.js.map
